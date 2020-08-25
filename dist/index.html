@@ -1,0 +1,32 @@
+<html ng-app="myapp" ng-controller="mainCntrl">
+ <head>
+   <title  ng-cloak>ChatBox {{dynoTitle}}</title>
+ 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/ico" href="Assets/img/favicon.ico" />
+    <!--bower:css-->
+    <!--endbower-->
+	
+	<!--inject:css-->
+	<link rel="stylesheet" href="/Assets/css/app.css">
+	<!--endinject--> 
+	
+	
+	<!--bower:js-->
+	<!--endbower-->
+ </head>
+ <body>
+    <div style="position: relative;">
+	   <div ui-view></div>
+	</div>
+	<!--inject:js-->
+	<script src="/Assets/js/vendor.js"></script>
+	<script src="/Assets/js/plugin.js"></script>
+	<script src="/Assets/js/app.js"></script>
+	<script src="/Assets/js/templates.js"></script>
+	<!--endinject-->
+
+	
+ </body>
+</html>

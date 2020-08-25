@@ -1,0 +1,51 @@
+<style>
+ .container{
+    width: 100%;
+    display: table;
+    height: 100%;
+  }
+ .container div.row{
+    display: table-cell;
+    vertical-align: middle;
+ }
+ 
+ .container .row div.img:first-child{     
+    padding-bottom: 50px;
+    text-align: center;
+ }
+ .container .row div.img:first-child img{
+    height:100px;
+	width:100px;
+ }
+ .container .copyright{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+	color: #9cd3e7;
+    font-size: 12px;
+    font-weight: 600;
+ }
+</style>
+
+<div class="container">
+	
+    
+  <div class="row">
+    <div class="img">
+	  <img src="Assets/img/logo.png">
+	</div>
+    <form class="form-5 clearfix" name="loginForm" novalidate>
+	<p>
+		<input type="text" name="name" ng-model="loginData.username" placeholder="Name" required>
+		<input type="text" name="email" ng-model="loginData.email" placeholder="Email" required> 
+    </p>
+    <button ng-click="doLogin()" ng-disabled="!loginForm.$valid">
+		<i class="fa fa-arrow-right"></i>
+		<span>Get in</span>
+	</button>     
+   </form>​​​​
+ </div>
+ <div class="copyright">Coyright &#169; Joban</div>
+</div>

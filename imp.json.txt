@@ -1,0 +1,19 @@
+flag = {1:joined,2:getonlineuser,3:disconnected, 4:chatmessage (one to one)}
+
+(event: newuser
+{
+  name:'',
+  email:'',
+  logintime:'',
+  flag:1
+}
+)
+
+(event: message
+{
+  sender:{}
+  receiver:{},
+  logintime:'',
+  flag:1/2
+}
+)
