@@ -12,7 +12,7 @@ https://whatsis-v1.herokuapp.com/
 
 # How to you
 
-For login you can use any username and email (email does not have to be a vaild one).
+For login, you can use any username and email (email does not have to be a vaild one).
 Once you logged in, you will see following screen.
 
 <img src="images/1.png" alt="Login screen" width="500px" />
@@ -38,4 +38,4 @@ Once done. You can start chating in a group.
 
 ## Note
 
-If you refresh all your chat history will be deleted. But you had logged in with your personal email (gmail only), you will get chat backup as part of email.
+If you refresh, all your chat history will be deleted. But, if you had logged in with your personal email (gmail only), you will get chat backup as part of email.
